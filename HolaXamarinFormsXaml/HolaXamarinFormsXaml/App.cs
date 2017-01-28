@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HolaXamarinFormsXaml.Views;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,6 +13,7 @@ namespace HolaXamarinFormsXaml
         public App()
         {
             // The root page of your application
+            /*
             var content = new ContentPage
             {
                 Title = "HolaXamarinFormsXaml",
@@ -28,6 +30,9 @@ namespace HolaXamarinFormsXaml
             };
 
             MainPage = new NavigationPage(content);
+            */
+
+            MainPage = new MainView();
         }
 
         protected override void OnStart()
